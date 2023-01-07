@@ -1,6 +1,6 @@
 import subprocess
 
-def download_segmented_video(video_url, start, end, output_file):
+def download_segmented_video(video_url, start, end, output_file): # main function
   ffmpeg_command = (
       "ffmpeg",
       "-ss", start,       # start at given time
